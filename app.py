@@ -17,4 +17,6 @@ input_data = np.array([[feature1, feature2]])
 
 if st.button("Predict"):
     prediction = model.predict(input_data)
-    st.success(f"Prediction result
+    st.success(f"Prediction result: {prediction[0]}")
+
+
